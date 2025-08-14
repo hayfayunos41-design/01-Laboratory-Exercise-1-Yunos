@@ -37,6 +37,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -112,12 +115,39 @@
             this.label5.TabIndex = 7;
             this.label5.Text = "First Name:";
             // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(278, 206);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(171, 20);
+            this.textBox3.TabIndex = 8;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(533, 169);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(118, 21);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "Middle Name:";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(504, 206);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(171, 20);
+            this.textBox4.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(935, 643);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label4);
@@ -145,6 +175,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox4;
     }
 }
 
