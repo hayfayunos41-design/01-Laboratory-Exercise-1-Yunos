@@ -21,5 +21,10 @@ namespace _01_Laboratory_Exercise_1_Yunos
         {
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
