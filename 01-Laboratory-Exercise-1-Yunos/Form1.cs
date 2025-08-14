@@ -16,5 +16,10 @@ namespace _01_Laboratory_Exercise_1_Yunos
         {
             InitializeComponent();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

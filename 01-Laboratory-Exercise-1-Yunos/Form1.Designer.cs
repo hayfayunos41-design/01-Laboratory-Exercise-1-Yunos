@@ -65,11 +65,12 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(375, 99);
+            this.label3.Location = new System.Drawing.Point(389, 99);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(74, 21);
             this.label3.TabIndex = 3;
             this.label3.Text = "Program:";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // Form1
             // 
